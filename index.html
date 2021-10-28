@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./dist/style.css">
+
+  <!-- JS -->
+  <!-- <script defer src="./dist/script.js"></script> -->
+  <!-- <script src="./app/js/script.js" defer></script> -->
+    
+  <title>Portfolio</title>
+</head>
+<body>
+
+  <!-- header -->
+  <section class="container header">
+    <div class="container__maxwidth">
+      <!-- Navigation -->
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__list--item"> <a href="#about"> about </a></li>
+          <li class="nav__list--item"> <a href="#projects"> projects </a></li>
+          <li class="nav__list--item"> <a href="#contact"> contact </a></li>
+        </ul>
+      </nav>
+      <!-- Inside container -->
+      <section class="container__sub">
+        <article class="container__sub--left">
+          <img src="./images/undraw_Developer_activity_re_39tg.svg" alt="svg image of a person coding">
+          <h1>Emil joseph.</h1>
+          <div id="socials">
+            <a href="https://github.com/ejoseph89?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ejoseph89/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:emiljoseph89@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+          </div>
+        </article>
+
+        <article class="container__sub--right">
+          <p class="accent special-txt">- hello</p>
+          <h2>I'm a junior frontend developer from Calgary, Alberta.</h2>
+          <p>I have a passion for bringing good design to life. I am currently working as a web developer at <a href="https://www.amped2play.com">Amped2Play</a>.</p>
+          <a href="#about" class="container__sub--right--pagenav page__nav" id>More about me <i>
+            <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.75 6.75L19.25 12L13.75 17.25"></path>
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 12H4.75"></path>
+            </svg></i> </a>
+        </article>
+      </section>
+    </div>
+  </section>
+
+  <!-- about -->
+  <section class="container about" id="about">
+    <div class="container__maxwidth">
+      <section class="container__sub about">
+        <article class="container__sub--left">
+          <p class="accent special-txt">- about me</p>
+          <img src="./images/profile-img.jpg" alt="svg image of a person coding">
+          <h2>I'm a recent graduate of the web development certificate program at <a href="https://sait.ca" target="_blank" class="accent" style="font-size: 1.875rem;" >SAIT.</a></h2>
+          <p>After graduating and starting my career as a social worker, I discovered my interest in design and web development. I learned the basics from  online courses and later, decided to enroll at SAIT for formal training.<br> <br> When I'm not working or learning <span class="special-txt">(as of now, Vue)</span>, I enjoy spending time with my family, and reading.</p>
+          <a href="#projects" class="container__sub--right--pagenav">Some of my work<i><svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.75 6.75L19.25 12L13.75 17.25"></path>
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 12H4.75"></path></svg></i>
+          </a>
+        </article>
+
+        <article class="container__sub--right">
+          <section class="skills__list">
+            <h2>Tools I'm comfortable with</h2>
+            <section class="skill__item">
+              <div class="skill__item--title">HTML</div>
+              <div class="skill__item--bar"> <span class="skill__item--percentage html"></span> </div>
+            </section>
+            <section class="skill__item">
+              <div class="skill__item--title">CSS</div>
+              <div class="skill__item--bar"> <span class="skill__item--percentage css"></span> </div>
+            </section>
+            <section class="skill__item">
+              <div class="skill__item--title">SASS</div>
+              <div class="skill__item--bar"> <span class="skill__item--percentage sass"></span> </div>
+            </section>
+            <section class="skill__item">
+              <div class="skill__item--title">JavaScript</div>
+              <div class="skill__item--bar"> <span class="skill__item--percentage js"></span> </div>
+            </section>
+          </section>
+        </article>
+      </section>
+    </div>
+  </section>
+
+  <!-- projects -->
+  <section class="container projects" id="projects">
+    <div class="container__maxwidth">
+      <section class="container__sub projects">
+        <article class="container__sub--left">
+          <p class="accent special-txt">- projects</p>
+          <h2>Some of the projects that I have worked on recently.</h2>
+          <p> Most of the contracts I have taken on after graduating has been wordpress websites for small businesses and organizations.  <br> <br>
+          As a beginner, there are a wide range of tools and frameworks that I am not familiar with. So, in my sparetime, I try to learn as much as I can. I also enjoy code challenges such as the ones posted below from <a href="https://www.frontendmentor.io/home" target="_blank" class="">Frontend Mentor.</a> <br> <br>
+          <a href="#contact" class="container__sub--right--pagenav">Contact me<i>
+            <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.75 6.75L19.25 12L13.75 17.25"></path>
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 12H4.75"></path>
+            </svg></i>
+          </a>
+        </article>
+        <article class="container__sub--right">
+          <div class="projects__clients">
+            <a href="https://www.thesimt.com/" target="_blank"><img src="./images/simt-logo.png" alt=""></a>
+            <a href="https://uptown-life.com/" target="_blank"><img src="./images/uptownlife-logo.png" alt=""></a>
+            <a href="https://cadsedmonton.ca/" target="_blank"><img src="./images/CADS-Edmonton-Logo.png" alt=""></a>
+            <a href="https://amped2play.com/" target="_blank"><img src="./images/AMPED2PLAY-Logo.png" alt=""></a>
+          </div>
+        </article>
+      </section>
+      <section class="container__sub projects components">
+        <section class="container__sub--left components">
+          <p class="accent special-txt">- components</p>
+          <h2>Here are some UI components that I built based on the <a href="https://www.frontendmentor.io/home" target="_blank" class="">Frontend Mentor's </a>  challenges.</h2>
+          <div class="components__grid">
+            <article class="components__grid--item grid__item-1">
+              <p class="component__description">Four card feature section: <span class="special-txt">HTML CSS</span></p>
+              <a href="http://emiljoseph.me/FM-four-card-feature-section/" target="_blank">
+                <figure>
+                  <img src="./images/components/Intersection 1.png" alt="">
+                </figure>
+              </a>
+            </article>
+            <article class="components__grid--item grid__item-2">
+              <p class="component__description">Article preview component: <span class="special-txt">HTML CSS JS</span></p>
+              <a href="http://emiljoseph.me/FM-article-preview-component/" target="_blank">
+                <figure>
+                  <img src="./images/components/Intersection 2.png" alt="">
+                </figure>
+              </a>
+            </article>
+            <article class="components__grid--item grid__item-3">
+              <p class="component__description">Order summary component: <span class="special-txt">HTML CSS</span></p>
+              <a href="http://emiljoseph.me/FM-order-summary-component/" target="_blank">
+                <figure>
+                  <img src="./images/components/Intersection 4.png" alt="">
+                </figure>
+              </a>
+            </article>
+            <article class="components__grid--item grid__item-5">
+              <p class="component__description">Signup form with JS Validation: <span class="special-txt">HTML CSS JS</span></p>
+              <a href="http://emiljoseph.me/FM-signup-form-challenge/" target="_blank">
+                <figure>
+                  <img src="./images/components/Intersection 6.png" alt="">
+                </figure>
+              </a>
+            </article>
+            <article class="components__grid--item grid__item-6">
+              <p class="component__description">Stats preview component: <span class="special-txt">HTML CSS</span></p>
+              <a href="http://emiljoseph.me/FM-stats-preview-card/" target="_blank">
+                <figure>
+                  <img src="./images/components/Intersection 7.png" alt="">
+                </figure>
+              </a>
+            </article>
+          </div>
+        </section>
+      </section>
+    </div>
+  </section>
+
+  <!-- contact  -->
+  <section class="container contact" id="contact">
+    <div class="container__maxwidth">
+      <section class="container__sub contact">
+        <article class="container__sub--left">
+          <p class="accent special-txt">- contact</p>
+          <h2>Need help with a project? <br> Let's talk.</h2>
+          <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, sit!</p> -->
+          <a href="mailto:emiljoseph89@gmail.com" class="container__sub--right--pagenav">Get in touch<i>
+            <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.75 6.75L19.25 12L13.75 17.25"></path>
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 12H4.75"></path>
+            </svg></i>
+          </a>
+        </article>
+        <article class="container__sub--right">
+          <form action="https://formsubmit.co/0d30f384a2b045245b7dff84309573aa" method="POST">
+            <label for="name">Name</label>
+            <input name="name" id="name" class="normal fn__normal" type="text" placeholder="What's your name?" id="first-name">
+            <input class="error fn__error--input hide" type="text">
+            <p class="error__text hide fn__error" >Name cannot be empty</p>
+            <label for="email">Email</label>
+            <input name="email" id="email" class="normal em__normal" type="text" placeholder="Email?" id="email-address">
+            <input class="error em__error--input hide" type="email">
+            <p class="error__text hide em__error" >Looks like this is not an email</p>
+            <label for="textarea"></label>
+            <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Tell me how I can help!"></textarea>
+            <input type="submit"> 
+            </input>
+          </form>
+        </article>
+      </section>
+    </div>
+  </section>
+
+
+      
+
+  
+</body>
+</html>

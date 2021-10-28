@@ -1,0 +1,20 @@
+
+.accent {
+  color: var(--accent-pink);
+}
+
+.special-txt {
+  font-family: var(--accent-font);
+  font-size: rem(16);
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.p-r-20 {
+  padding-right: rem(20);
+  display: none;
+}
+
+.p-r-50 {
+  padding-right: rem(20);
+}

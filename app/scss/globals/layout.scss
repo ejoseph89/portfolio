@@ -1,0 +1,44 @@
+@use '../util/' as *;
+
+.container {
+  min-height: 100vh;
+  
+  &__maxwidth {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 rem(25);
+  }
+}
+
+.container.header {
+  background-color: var(--dark-grey);
+  padding: rem(75);
+
+  @include breakpoint-down(medium) {
+    padding: rem(25);
+  }
+}
+
+.container.about {
+  background-color: var(--light-grey);
+  padding: rem(75);
+  @include breakpoint-down(medium) {
+    padding: rem(25);
+  }
+}
+
+.container.projects {
+  background-color: var(--dark-grey);
+  padding: rem(75);
+  @include breakpoint-down(medium) {
+    padding: rem(25);
+  }
+}
+
+.container.contact {
+  background-color: var(--light-grey);
+  padding: rem(75);
+  @include breakpoint-down(medium) {
+    padding: rem(25);
+  }
+}

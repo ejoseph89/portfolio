@@ -1,0 +1,60 @@
+@use '../util' as *;
+
+.nav__list {
+  display: flex;
+  justify-content: flex-end;
+  padding: rem(50) 0;
+
+  @include breakpoint-down(large) {
+    justify-content: center;
+    align-items: center;
+  }
+
+   @include breakpoint-down(medium) {
+    padding: rem(25), 0;
+   }
+
+
+  &--item {
+    padding-left: rem(20);
+
+    a {
+      // color: var(--light-text-grey);
+      font-size: rem(25);
+      font-weight: 400;
+      letter-spacing: 1.2px;
+      text-transform: capitalize;
+
+      @include breakpoint-down(large) {
+        font-size: rem(20);
+        font-weight: 300;
+      }
+    }
+
+    a:hover,
+    a:active {
+      color: var(--dark-text-grey);
+      transition: 0.25s;
+    }
+
+    a:after {
+      display:block;
+      content: '';
+      width: rem(7); 
+      height: rem(7);
+      margin: 0 auto;
+      margin-top: rem(7);
+      border-radius: 50%;
+      background-color: var(--accent-pink);
+
+      opacity: 0;
+    }
+    
+    a:hover:after,
+    a:active:after { 
+      opacity: 1;
+      transition: all 0.35s;
+    }
+  }
+}
+

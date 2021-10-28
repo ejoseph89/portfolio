@@ -1,0 +1,41 @@
+@use '../util' as *;
+
+.container__sub.projects {
+  // flex-direction: column;
+
+  a {
+    color: var(--accent-pink);
+    font-weight: 400;
+
+    &:hover {
+      i {
+        transform: translateX(10px);
+        transition: all .25s;
+      }
+    }
+  }
+}
+
+.projects__clients {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+  align-items: center;
+
+  @include breakpoint-down(medium) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding-bottom: rem(75);
+  }
+
+  a {
+    img {
+      width: 150px;
+
+      // @include breakpoint-down(medium) {
+      //   width: 100px;
+      // }
+    }
+  }
+}
